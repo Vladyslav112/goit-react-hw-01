@@ -1,0 +1,28 @@
+.container {
+  margin-top: 60px;
+  width: 100%;
+}
+.thead {
+  color: white;
+  background-color: black;
+}
+
+.tr {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+
+.th {
+  border: 2px solid black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tr:nth-child(even) {
+  background-color: #dadcde;
+}
+
+.td {
+  padding: 10px;
+}

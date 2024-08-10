@@ -1,0 +1,24 @@
+ul {
+  list-style: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: white;
+}
+.FriendListItemName {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
